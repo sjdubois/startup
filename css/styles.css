@@ -62,10 +62,55 @@ table {
 
 body {
 	background: #c6c6c6;
+	font-family: 'Roboto', sans-serif;
+  	-webkit-font-smoothing: antialiased;
+  	font-size: 100%;
 }
 
 div {
 	border: 1px solid #fec4c4;
+}
+
+
+.top-navigation {
+    background-color: #FFF;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    z-index: 9999;
+}
+
+.content {
+	min-width: 600px;
+	max-width: 970px;
+	margin: 0px auto;
+}
+
+.top-navigation .logo {
+	height: 4.375rem; /* 62px height */
+	background: #eefec3;
+}
+
+.top-navigation ul {
+	background: #c4c3c5;
+	float: right;
+	color: #838994;
+}
+
+.top-navigation ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.introduction {
+	background-image: url('../images/first-background.jpg');
+ 	background-position: center bottom;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	height: 45.938rem;
+ 	overflow: auto;
+}
+
 }
 
 /* Custom Styles End */
