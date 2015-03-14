@@ -58,9 +58,15 @@ table {
 
 /* CSS Reset Styles End */
 
-
 /* Custom Styles Start */
 
+body {
+	background: #c6c6c6;
+}
+
+div {
+	border: 1px solid #fec4c4;
+}
 
 /* Custom Styles End */
 
