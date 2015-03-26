@@ -5,6 +5,14 @@
 	Date: 03/14/15
 */
 
+/* Paul Irish Box-Sizing: Border-Box reset - apply a natural box layout model to all elements, but allowing components to change http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 /* CSS Reset Styles Start */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -65,11 +73,12 @@ body {
 	font-family: 'Roboto', sans-serif;
   	-webkit-font-smoothing: antialiased;
   	font-size: 100%;
+  	letter-spacing: 0.03em;
 }
 
-div {
+/* div {
 	border: 1px solid #fec4c4;
-}
+} */
 
 
 .top-navigation {
@@ -84,22 +93,44 @@ div {
 	min-width: 600px;
 	max-width: 970px;
 	margin: 0px auto;
+	padding: 0px 15px;
+	box-sizing: border-box;
 }
 
 .top-navigation .logo {
 	height: 4.375rem; /* 62px height */
-	background: #eefec3;
+	/* background: #eefec3;*/
 }
 
 .top-navigation ul {
-	background: #c4c3c5;
 	float: right;
 	color: #838994;
+	margin-top: 1.7rem;
 }
 
 .top-navigation ul li {
 	list-style-type: none;
 	display: inline-block;
+	margin-left: 1.563rem;
+}
+
+
+.top-navigation ul li a {
+    text-decoration: none ;
+    color: #838994;
+}
+
+.top-navigation ul li a:hover {
+    color: #000;
+}
+
+
+
+
+.top-navigation .active a {
+    color: #4c5058;
+    font-weight: 600;
+    text-decoration: none ;
 }
 
 .introduction {

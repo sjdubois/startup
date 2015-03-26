@@ -3,14 +3,27 @@
 	{
 		"selected_items":
 		[
+			[
+				"inline",
+				"inline-block"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 795,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/styles.css",
+			"settings":
+			{
+				"buffer_size": 2261,
 				"line_ending": "Unix"
 			}
 		}
@@ -63,6 +76,10 @@
 	},
 	"file_history":
 	[
+		"/Users/sjdubois2/Desktop/projects/startup-landing-page-clone/css/styles.css",
+		"/Users/sjdubois2/Desktop/projects/startup-landing-page-clone/updates.html",
+		"/Users/sjdubois2/Library/Application Support/Sublime Text 2/Packages/User/SublimeServer.sublime-settings",
+		"/Users/sjdubois2/Desktop/projects/startup-landing-page-clone/test.html",
 		"/Users/sjdubois2/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
 		"/Applications/MAMP/htdocs/thinkful/landing-page/index.html",
 		"/Applications/MAMP/htdocs/delta-grants/index.html",
@@ -109,30 +126,58 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 795,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								99,
+								99
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/styles.css",
+					"settings":
+					{
+						"buffer_size": 2261,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1912,
+								1912
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1092.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -196,6 +241,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 273.0,
 	"status_bar_visible": true
 }
