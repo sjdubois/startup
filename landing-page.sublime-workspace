@@ -15,7 +15,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 795,
+				"buffer_size": 949,
 				"line_ending": "Unix"
 			}
 		},
@@ -23,7 +23,7 @@
 			"file": "css/styles.css",
 			"settings":
 			{
-				"buffer_size": 2261,
+				"buffer_size": 3447,
 				"line_ending": "Unix"
 			}
 		}
@@ -134,15 +134,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 795,
+						"buffer_size": 949,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								99,
-								99
+								873,
+								873
 							]
 						],
 						"settings":
@@ -161,15 +161,15 @@
 					"file": "css/styles.css",
 					"settings":
 					{
-						"buffer_size": 2261,
+						"buffer_size": 3447,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1912,
-								1912
+								2406,
+								2406
 							]
 						],
 						"settings":
@@ -177,7 +177,7 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1092.0,
+						"translation.y": 1574.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
