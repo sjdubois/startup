@@ -69,7 +69,7 @@ table {
 /* Custom Styles Start */
 
 body {
-	background: #c6c6c6;
+	background: #FFFFFF;
 	font-family: 'Roboto', sans-serif;
   	-webkit-font-smoothing: antialiased;
   	font-size: 100%;
@@ -178,6 +178,25 @@ button:hover {
     background-color: #d9400e;
     border-color: #cf3d0e;
     cursor: pointer;
+}
+
+
+.cases h2 {
+  font-size: 2.75rem;
+  margin: 1.625rem 0 3.125rem;
+  font-weight: 300;
+}
+
+.cases .content {
+  margin-top: 7.875rem;
+  padding: none;
+  color: #1d1e21;
+  text-align: center;
+}
+
+.cases .devices > li {
+  width: 33.3333333%;
+  float: left;
 }
 
 
